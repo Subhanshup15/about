@@ -5,6 +5,7 @@ const personal = {
   name: "Subhanshu Pardeshi",
   dob: "17 July 1999",
   age: "26",
+  height: "5.6",
   education: "Masters In Computer Science",
   designation: "Software Developer ",
   father: "Mr. Sabhajit Mohal Pardeshi",
@@ -61,6 +62,7 @@ const Home = () => {
           <p><strong>Name:</strong> {personal.name}</p>
           <p><strong>Age:</strong> {personal.age}</p>
           <p><strong>DOB:</strong> {personal.dob}</p>
+          <p><strong>Height:</strong> {personal.height}</p>
           <p><strong>Education:</strong> {personal.education}</p>
           <p><strong>Designation:</strong> {personal.designation}</p>
           <p><strong>Nationality:</strong> {personal.nationality}</p>
