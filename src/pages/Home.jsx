@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../App.css";
 
 const personal = {
-  name: "Subhanshu Pardeshi",
+  name: "Subhanshu Sabhajit Pardeshi",
   dob: "17 July 1999",
   age: "26",
   height: "5.7 Fit",
@@ -111,6 +111,47 @@ const Home = () => {
                 onClick={() => openPopup("/didi.jpg")}
               />
               <p>{personal.sister}</p>
+            </div>
+
+            <div>
+              <img
+                src="/sagar1.jpeg"
+                alt="Sagar"
+                className="family-photo"
+                draggable="false"
+                onContextMenu={(e) => e.preventDefault()}
+                onClick={() => openPopup("/sagar1.jpeg")}
+              />
+            </div>
+             <div>
+              <img
+                src="/sagar2.JPG"
+                alt="Sagar"
+                className="family-photo"
+                draggable="false"
+                onContextMenu={(e) => e.preventDefault()}
+                onClick={() => openPopup("/sagar2.JPG")}
+              />
+            </div>
+             <div>
+              <img
+                src="/sagar3.jpg"
+                alt="Sagar"
+                className="family-photo"
+                draggable="false"
+                onContextMenu={(e) => e.preventDefault()}
+                onClick={() => openPopup("/sagar3.jpg")}
+              />
+            </div>
+             <div>
+              <img
+                src="/sagar4.jpg"
+                alt="Sagar"
+                className="family-photo"
+                draggable="false"
+                onContextMenu={(e) => e.preventDefault()}
+                onClick={() => openPopup("/sagar4.jpg")}
+              />
             </div>
           </div>
         </div>
