@@ -13,7 +13,7 @@ const personal = {
   sister: "Sakshi Sabhajit Pardeshi",
   nationality: "Indian",
   location: "Hadapsar, Pune, Maharashtra",
-  plocation:" Village:Ariyar , Post:Ariyar,Tashil:Madhiyahu, District:Jaunpur",
+  plocation:" Village:Ariyar , Post:Ariyar,Tashil:Madhiyahu, District:Jaunpur...",
 };
 
 
