@@ -13,7 +13,7 @@ const personal = {
   sister: "Sakshi Sabhajit Pardeshi",
   nationality: "Indian",
   location: "Hadapsar, Pune, Maharashtra",
-  plocation:" Village:Ariyar , Post:Ariyar,Tashil:Madhiyahu, District:Jaunpur...",
+  plocation: " Village:Ariyar , Post:Ariyar,Tashil:Madhiyahu, District:Jaunpur... ",
 };
 
 
@@ -45,7 +45,7 @@ const Home = () => {
     <div className="portfolio">
       {/* ABOUT ME - PERSONAL & FAMILY */}
       <section className="section center-container">
-        
+
 
         {/* Profile image */}
         <div className="about-photo-container">
@@ -60,7 +60,7 @@ const Home = () => {
         </div>
 
 
-<h2 className="section-title">About Me</h2>
+        <h2 className="section-title">About Me</h2>
         <div className="card about-card">
           <p><strong>Name:</strong> {personal.name}</p>
           <p><strong>Age:</strong> {personal.age}</p>
@@ -123,7 +123,7 @@ const Home = () => {
                 onClick={() => openPopup("/sagar1.jpeg")}
               />
             </div>
-             <div>
+            <div>
               <img
                 src="/sagar2.JPG"
                 alt="Sagar"
@@ -133,7 +133,7 @@ const Home = () => {
                 onClick={() => openPopup("/sagar2.JPG")}
               />
             </div>
-             <div>
+            <div>
               <img
                 src="/sagar3.jpg"
                 alt="Sagar"
@@ -143,7 +143,7 @@ const Home = () => {
                 onClick={() => openPopup("/sagar3.jpg")}
               />
             </div>
-             <div>
+            <div>
               <img
                 src="/sagar4.jpg"
                 alt="Sagar"
