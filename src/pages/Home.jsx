@@ -11,6 +11,8 @@ const personal = {
   father: "Mr. Sabhajit Mohal Pardeshi",
   mother: "Mrs. Sunita Sabhajit Pardeshi",
   sister: "Sakshi Sabhajit Pardeshi",
+  Mai: "Sursati Devi",
+
   nationality: "Indian",
   location: "Hadapsar, Pune, Maharashtra",
   plocation: " Village:Ariyar , Post:Ariyar,Tashil:Madhiyahu, District:Jaunpur... ",
@@ -19,16 +21,7 @@ const personal = {
 
 
 
-const SkillCard = ({ title, items }) => (
-  <div className="card skill-card">
-    <h4>{title}</h4>
-    <ul className="list inline">
-      {items.map((item) => (
-        <li key={item}>{item}</li>
-      ))}
-    </ul>
-  </div>
-);
+
 
 const Home = () => {
   const [popupImage, setPopupImage] = useState(null);
@@ -43,7 +36,6 @@ const Home = () => {
 
   return (
     <div className="portfolio">
-      {/* ABOUT ME - PERSONAL & FAMILY */}
       <section className="section center-container">
 
 
@@ -72,6 +64,7 @@ const Home = () => {
           <p><strong>Father:</strong> {personal.father}</p>
           <p><strong>Mother:</strong> {personal.mother}</p>
           <p><strong>Sister:</strong> {personal.sister}</p>
+            <p><strong>Grand-Mother:</strong> {personal.Mai}</p>
           <p><strong>Address:</strong> {personal.location}</p>
           <p><strong>P-Address:</strong> {personal.plocation}</p>
 
@@ -111,6 +104,18 @@ const Home = () => {
                 onClick={() => openPopup("/didi.jpg")}
               />
               <p>{personal.sister}</p>
+            </div>
+
+             <div>
+              <img
+                src="/mai.jpg"
+                alt="mai"
+                className="family-photo"
+                draggable="false"
+                onContextMenu={(e) => e.preventDefault()}
+                onClick={() => openPopup("/mai.jpg")}
+              />
+              <p>{personal.Mai}</p>
             </div>
 
             <div>

@@ -11,19 +11,7 @@ const Layout = () => {
 
   return (
     <>
-      {location.pathname === "/" && (
-        <nav className="navbar">
-          <div className="navbar-logo">SP</div>
-
-          {/* Desktop Links */}
-          
-
-         
-         
-        </nav>
-      )}
-
-      <Routes>
+     <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
       </Routes>
